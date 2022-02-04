@@ -3,9 +3,9 @@ import CustomButton from "../custom-button/custom-button";
 import "./collection-items.scss";
 import { connect } from "react-redux";
 
-import AddItems from "../../redux/cart/cart.actions";
+import {AddItems} from "../../redux/cart/cart.actions";
 
-const collectionItem = ({ item,addItem }) => {
+const collectionItem = ({ item,addItem} ) => {
   return (
     <div className="collection-item">
       <div className="image" style={{ backgroundImage: `url(${item.imageUrl})` }}/>

@@ -1,13 +1,23 @@
-.cart{
-    display: flex;
-    flex-direction: column;
-    
-    
+.cart {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+  
+  max-width: 700px;
+  margin-left: 100px;
 }
-.image{
-    height: 100px;
-    width: 100px;
-    background-size: cover;
-    background-position: center;
-    
+img {
+  height: 100px;
+  width: 100px;
+}
+.image-container,.quantity,.price,.remove{
+    margin-left: 50px;
+    margin-right: 55px;
+    align-items: center;
+}
+.remove{
+    font-size: large;
+    cursor: pointer;
 }

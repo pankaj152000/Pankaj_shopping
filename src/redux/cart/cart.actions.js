@@ -1,7 +1,11 @@
 import cartActionTypes from "./cart.types";
 
-const AddItems=item=>({
+export const AddItems=item=>({
     type:cartActionTypes.ADD_ITEMS,
     payload:item
 });
-export default AddItems;
+
+export const ClearItems=item=>({
+    type:cartActionTypes.CLEAR_ITEMS,
+    payload:item
+});

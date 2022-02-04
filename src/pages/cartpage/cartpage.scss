@@ -1,5 +1,13 @@
-.cartPage{
-    display:flex;
-    flex-direction: column;
-    
+.pro,.des,.quan,.rem,.amo{
+    max-width: 700px;
+    margin-left: 20px;
+    margin-right: 55px;
+    margin-top: 55px;
+    font-size: large;
+    align-items: center;
+}
+.header-block{
+    margin-left: 100px;
+    border-bottom: 1px solid gray;
+    max-width:700px ;
 }

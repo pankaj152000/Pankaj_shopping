@@ -6,9 +6,16 @@ import "./cartpage.scss";
 const cartPage = ({ cartItems }) => {
   return (
     <div className="cartPage">
+    <div className="header-block">
+    <span className="pro">Product</span>
+    <span className="des">Description</span>
+    <span className="quan">Quantity</span>
+    <span className="amo">Amount</span>
+    <span className="rem">Remove</span>
+    </div>
 
-      {cartItems.map(({ id, name, price, quantity,imageUrl }) => (
-        <CartCom key={id} name={name} price={price} quantity={quantity} imageUrl={imageUrl} />
+      {cartItems.map((item) => (
+        <CartCom key={item.id} item={item} />
       ))}
     </div>
   );
