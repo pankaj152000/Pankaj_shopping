@@ -16,7 +16,6 @@ import "./header.scss";
       <div className="options">
        <Link className="option " to="/shop">SHOP</Link>
        <Link className="option " to="/contact">CONTACT</Link>
-       <Link className="option"  to="/sign">SIGN-IN</Link>
        <Link className="option" to="/cart">CART</Link>
       </div>
     </div>
