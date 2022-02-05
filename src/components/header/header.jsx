@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import {connect} from "react-redux";
 
 import "./header.scss";
 
@@ -24,13 +23,7 @@ import "./header.scss";
   
 };
 
- const mapStateToProps = ({cart:{hidden},user:{currentUser}}) =>({
-   hidden,
-   currentUser
-   
- });
+ 
 
-export default connect(mapStateToProps)(Header);
-// const mapDispatchToProps =dispatch=>({
-//   toggleCarthidden:()=>dispatch(toggleCartHidden())
-// });
+export default Header;
+
